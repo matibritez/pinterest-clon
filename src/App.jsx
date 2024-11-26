@@ -1,11 +1,14 @@
-import './App.css'
-import Header  from './components/Header'
+import './App.css';
+import Navbar from './components/Navbar';
+
+
 
 function App() {
   return (
     <div className="container">
-      <Header/>
-      new project
+      <Navbar/>
+      <h1>Encuentra la proxima</h1>
+      
     </div>
   )
 }

@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Listas izquierda y derecha */
+  .navbar__left,
+  .navbar__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Logo */
+  .navbar__logo img {
+    width: 40px;
+    cursor: pointer;
+  }
+
+  .navbar-logo{
+    color: red;
+    background-color: white;
+    border: none;
+    
+  }
+  
+  /* Botones */
+  .navbar__left button,
+  .navbar__right button {
+   
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .navbar__left button:hover,
+  .navbar__right button:hover {
+    background-color: #f0f0f0;
+  }
+  
+ 
+
+  
+.boton-inicio{
+  background-color: red;
+  border-radius: 2 2 2 2;
+  color: white;
+}
